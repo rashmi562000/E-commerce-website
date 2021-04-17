@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+<!-- <h1>hii guys i am {{name}} and age is {{age}}</h1> -->
+<form action='/analyze' method='post'>  {% csrf_token %}
+    <textarea name="text" >
+        
+    </textarea>
+    <input type="checkbox" name="removepunc">remove puntuation</br>
+    <button name="btn" type='submit'>analyze</button>
+</form>
+</body>
+</html>
